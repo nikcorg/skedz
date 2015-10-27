@@ -4,7 +4,7 @@
   "description": "App builder boilerplate",
   "config": {
     "transforms": "-t [ babelify --loose all --stage 0 ] -t envify",
-    "manifest": "schedule.appcache"
+    "manifest": "offline.appcache"
   },
   "scripts": {
     "lint": "eslint src/js",
